@@ -110,6 +110,11 @@
 		</dict>
 		<key>ChooseScene.ccbi</key>
 		<dict/>
+		<key>EntranceAssets</key>
+		<dict>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
 		<key>Gear</key>
 		<dict>
 			<key>isSmartSpriteSheet</key>
