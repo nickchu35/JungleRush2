@@ -42,7 +42,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>Assets/bear1.png</string>
+								<string>BearSprite/bear1.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -60,7 +60,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>Assets/bear2.png</string>
+								<string>BearSprite/bear2.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -78,7 +78,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>Assets/bear3.png</string>
+								<string>BearSprite/bear3.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -96,7 +96,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>Assets/bear4.png</string>
+								<string>BearSprite/bear4.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -114,25 +114,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>Assets/bear1.png</string>
-								<string>Use regular file</string>
-							</array>
-						</dict>
-						<dict>
-							<key>easing</key>
-							<dict>
-								<key>type</key>
-								<integer>0</integer>
-							</dict>
-							<key>name</key>
-							<string>spriteFrame</string>
-							<key>time</key>
-							<real>0.13333334028720856</real>
-							<key>type</key>
-							<integer>7</integer>
-							<key>value</key>
-							<array>
-								<string>Assets/bear5.png</string>
+								<string>BearSprite/bear5.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -150,25 +132,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>Assets/bear2.png</string>
-								<string>Use regular file</string>
-							</array>
-						</dict>
-						<dict>
-							<key>easing</key>
-							<dict>
-								<key>type</key>
-								<integer>0</integer>
-							</dict>
-							<key>name</key>
-							<string>spriteFrame</string>
-							<key>time</key>
-							<real>0.1666666716337204</real>
-							<key>type</key>
-							<integer>7</integer>
-							<key>value</key>
-							<array>
-								<string>Assets/bear6.png</string>
+								<string>BearSprite/bear6.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -186,25 +150,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>Assets/bear3.png</string>
-								<string>Use regular file</string>
-							</array>
-						</dict>
-						<dict>
-							<key>easing</key>
-							<dict>
-								<key>type</key>
-								<integer>0</integer>
-							</dict>
-							<key>name</key>
-							<string>spriteFrame</string>
-							<key>time</key>
-							<real>0.20000000298023224</real>
-							<key>type</key>
-							<integer>7</integer>
-							<key>value</key>
-							<array>
-								<string>Assets/bear7.png</string>
+								<string>BearSprite/bear7.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -222,43 +168,7 @@
 							<integer>7</integer>
 							<key>value</key>
 							<array>
-								<string>Assets/bear4.png</string>
-								<string>Use regular file</string>
-							</array>
-						</dict>
-						<dict>
-							<key>easing</key>
-							<dict>
-								<key>type</key>
-								<integer>0</integer>
-							</dict>
-							<key>name</key>
-							<string>spriteFrame</string>
-							<key>time</key>
-							<real>0.23333333432674408</real>
-							<key>type</key>
-							<integer>7</integer>
-							<key>value</key>
-							<array>
-								<string>Assets/bear8.png</string>
-								<string>Use regular file</string>
-							</array>
-						</dict>
-						<dict>
-							<key>easing</key>
-							<dict>
-								<key>type</key>
-								<integer>0</integer>
-							</dict>
-							<key>name</key>
-							<string>spriteFrame</string>
-							<key>time</key>
-							<real>0.26666668057441711</real>
-							<key>type</key>
-							<integer>7</integer>
-							<key>value</key>
-							<array>
-								<string>Assets/bear5.png</string>
+								<string>BearSprite/bear8.png</string>
 								<string>Use regular file</string>
 							</array>
 						</dict>
@@ -275,7 +185,7 @@
 		<key>children</key>
 		<array/>
 		<key>customClass</key>
-		<string></string>
+		<string>WalkingBear</string>
 		<key>displayName</key>
 		<string>CCSprite</string>
 		<key>memberVarAssignmentName</key>
@@ -360,6 +270,8 @@
 				</array>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
@@ -409,17 +321,17 @@
 			<key>chainedSequenceId</key>
 			<integer>0</integer>
 			<key>length</key>
-			<real>0.26666668057441711</real>
+			<real>0.23333333432674408</real>
 			<key>name</key>
-			<string>Default Timeline</string>
+			<string>WalkingBear</string>
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.26666668057441711</real>
+			<real>0.23333333432674408</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
-			<real>278.5308837890625</real>
+			<real>512</real>
 			<key>sequenceId</key>
 			<integer>0</integer>
 			<key>soundChannel</key>

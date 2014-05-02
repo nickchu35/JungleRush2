@@ -26,4 +26,16 @@
     [[CCDirector sharedDirector] replaceScene:mainScene];
 }
 
+-(void)SelectBear {
+    // loads the Bear.ccb we have set up in Spritebuilder
+    CCNode* bear = [CCBReader load:@"Bear"];
+    // position the bear
+    bear.position = ccpAdd(_startButton.position,ccp(0,50));
+    [_spriteNode addChild:bear];
+    NSLog(@"selected bear");
+    
+    self.position = ccp(0, 0);
+
+}
+
 @end

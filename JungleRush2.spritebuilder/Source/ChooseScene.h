@@ -9,5 +9,8 @@
 #import "CCNode.h"
 
 @interface ChooseScene : CCNode
-
+{
+    CCNode* _spriteNode;
+    CCButton* _startButton;
+}
 @end

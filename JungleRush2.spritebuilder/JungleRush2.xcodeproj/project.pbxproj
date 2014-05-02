@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0428CE4019137FF300C3CB15 /* WalkingBear.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428CE3F19137FF300C3CB15 /* WalkingBear.m */; };
 		042D95EE190A3B9D00ED6B54 /* GamePlayIce.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D95ED190A3B9D00ED6B54 /* GamePlayIce.m */; };
 		04745F62190B88FE001C0B74 /* NewGamePlayIce.m in Sources */ = {isa = PBXBuildFile; fileRef = 04745F61190B88FE001C0B74 /* NewGamePlayIce.m */; };
 		04B1082B190A4D3B000032D9 /* OptionScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B1082A190A4D3B000032D9 /* OptionScene.m */; };
 		04B10832190A4DF8000032D9 /* ChooseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B10831190A4DF8000032D9 /* ChooseScene.m */; };
 		04B10837190AC369000032D9 /* HelpScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B10836190AC369000032D9 /* HelpScene.m */; };
+		04F9047D190F9CF300AF009C /* NewGamePlaySky.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F9047C190F9CF300AF009C /* NewGamePlaySky.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -60,6 +62,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0428CE3E19137FF300C3CB15 /* WalkingBear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WalkingBear.h; path = Source/WalkingBear.h; sourceTree = "<group>"; };
+		0428CE3F19137FF300C3CB15 /* WalkingBear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WalkingBear.m; path = Source/WalkingBear.m; sourceTree = "<group>"; };
 		042D95EC190A3B9D00ED6B54 /* GamePlayIce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GamePlayIce.h; path = Source/GamePlayIce.h; sourceTree = "<group>"; };
 		042D95ED190A3B9D00ED6B54 /* GamePlayIce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GamePlayIce.m; path = Source/GamePlayIce.m; sourceTree = "<group>"; };
 		04745F60190B88FE001C0B74 /* NewGamePlayIce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewGamePlayIce.h; path = Source/NewGamePlayIce.h; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 		04B10831190A4DF8000032D9 /* ChooseScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChooseScene.m; path = Source/ChooseScene.m; sourceTree = "<group>"; };
 		04B10835190AC369000032D9 /* HelpScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpScene.h; path = Source/HelpScene.h; sourceTree = "<group>"; };
 		04B10836190AC369000032D9 /* HelpScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelpScene.m; path = Source/HelpScene.m; sourceTree = "<group>"; };
+		04F9047B190F9CF300AF009C /* NewGamePlaySky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewGamePlaySky.h; path = Source/NewGamePlaySky.h; sourceTree = "<group>"; };
+		04F9047C190F9CF300AF009C /* NewGamePlaySky.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewGamePlaySky.m; path = Source/NewGamePlaySky.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -151,6 +157,10 @@
 				04745F61190B88FE001C0B74 /* NewGamePlayIce.m */,
 				04B10835190AC369000032D9 /* HelpScene.h */,
 				04B10836190AC369000032D9 /* HelpScene.m */,
+				04F9047B190F9CF300AF009C /* NewGamePlaySky.h */,
+				04F9047C190F9CF300AF009C /* NewGamePlaySky.m */,
+				0428CE3E19137FF300C3CB15 /* WalkingBear.h */,
+				0428CE3F19137FF300C3CB15 /* WalkingBear.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -346,11 +356,13 @@
 				042D95EE190A3B9D00ED6B54 /* GamePlayIce.m in Sources */,
 				04B10832190A4DF8000032D9 /* ChooseScene.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
+				04F9047D190F9CF300AF009C /* NewGamePlaySky.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				04B1082B190A4D3B000032D9 /* OptionScene.m in Sources */,
 				04745F62190B88FE001C0B74 /* NewGamePlayIce.m in Sources */,
 				04B10837190AC369000032D9 /* HelpScene.m in Sources */,
+				0428CE4019137FF300C3CB15 /* WalkingBear.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

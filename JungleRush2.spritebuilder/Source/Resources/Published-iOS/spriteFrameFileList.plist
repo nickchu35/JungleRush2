@@ -9,10 +9,13 @@
 	</dict>
 	<key>spriteFrameFiles</key>
 	<array>
-		<string>Buttons.plist</string>
-		<string>AnimalSprites.plist</string>
-		<string>BackGrounds.plist</string>
 		<string>Assets.plist</string>
+		<string>BackGrounds.plist</string>
+		<string>BearSprite.plist</string>
+		<string>ccbResources.plist</string>
+		<string>Gear.plist</string>
+		<string>Buttons.plist</string>
+		<string>SkyBackground.plist</string>
 		<string>MainBackGround.plist</string>
 	</array>
 </dict>

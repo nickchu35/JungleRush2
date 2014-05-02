@@ -88,11 +88,6 @@
 			<key>previewFolderHidden</key>
 			<true/>
 		</dict>
-		<key>AnimalSprites</key>
-		<dict>
-			<key>isSmartSpriteSheet</key>
-			<true/>
-		</dict>
 		<key>Assets</key>
 		<dict>
 			<key>isSmartSpriteSheet</key>
@@ -103,28 +98,46 @@
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
+		<key>BearSprite</key>
+		<dict>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
 		<key>Buttons</key>
 		<dict>
-			<key>isDirty</key>
-			<true/>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
 		<key>ChooseScene.ccbi</key>
 		<dict/>
+		<key>Gear</key>
+		<dict>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
 		<key>MainBackGround</key>
 		<dict>
-			<key>isDirty</key>
+			<key>isSmartSpriteSheet</key>
 			<true/>
+		</dict>
+		<key>MainBackground</key>
+		<dict>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
 		<key>MainScene.ccbi</key>
 		<dict/>
+		<key>SkyBackground</key>
+		<dict>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
 		<key>Sprites</key>
 		<dict/>
 		<key>ccbResources</key>
 		<dict>
+			<key>isSmartSpriteSheet</key>
+			<true/>
 			<key>previewFolderHidden</key>
 			<true/>
 		</dict>
