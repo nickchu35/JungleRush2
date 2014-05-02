@@ -185,7 +185,7 @@
 		<key>children</key>
 		<array/>
 		<key>customClass</key>
-		<string>WalkingBear</string>
+		<string></string>
 		<key>displayName</key>
 		<string>CCSprite</string>
 		<key>memberVarAssignmentName</key>
@@ -270,8 +270,6 @@
 				</array>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
@@ -323,11 +321,11 @@
 			<key>length</key>
 			<real>0.23333333432674408</real>
 			<key>name</key>
-			<string>WalkingBear</string>
+			<string>Bear</string>
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.23333333432674408</real>
+			<real>0.20000000298023224</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
