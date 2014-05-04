@@ -25,6 +25,11 @@
     CCLOG(@"bear was created!");
     [self addChild:bear];
     isHeadedLeft = true;
+
+    // follow the bear
+    CCActionFollow *follow = [CCActionFollow actionWithTarget:bear worldBoundary:self.boundingBox];
+    [self runAction:follow];
+    
 }
 
 -(void) touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
