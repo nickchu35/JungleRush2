@@ -13,7 +13,7 @@
         // tell this scene to accept touches
         self.userInteractionEnabled = TRUE;
         
-        bear = (CCSprite*)[CCBReader load:@"Bear"];
+        bear = (CCSprite*)[CCBReader load:@"AnimalSprite/Bear"];
         bear.position  = ccp(300,80);//ccp(self.contentSize.width/2,self.contentSize.height/2);
         bear.scale = 0.3;
         CCLOG(@"bear was created!");

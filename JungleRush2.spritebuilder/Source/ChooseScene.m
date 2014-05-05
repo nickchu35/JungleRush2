@@ -14,6 +14,8 @@
 - (void)didLoadFromCCB {
     // tell this scene to accept touches
     self.userInteractionEnabled = TRUE;
+    character = 1;
+    [self loadAnimal];
 }
 
 - (void)start {
@@ -26,16 +28,48 @@
     [[CCDirector sharedDirector] replaceScene:mainScene];
 }
 
-/*-(void)SelectBear {
-    // loads the Bear.ccb we have set up in Spritebuilder
-    CCNode* bear = [CCBReader load:@"Bear"];
-    // position the bear
-    bear.position = ccpAdd(_startButton.position,ccp(0,75));
-    [_spriteNode addChild:bear];
-    NSLog(@"selected bear");
-    
-    self.position = ccp(0, 0);
+- (void)prev{
+    if(character == 1){
+        character = 4;
+    }
+    else character--;
+    [self loadAnimal];
+}
 
-}*/
+- (void)next{
+    if(character == 4){
+        character = 1;
+    }
+    else character++;
+    [self loadAnimal];
+}
+
+- (void)loadAnimal{
+    double _size = 1.5;
+    bool flipX = false;
+    NSString *path = @"WalkingAnimalSprite/Walking";
+    NSString *animalName = @"Bear";
+    if(character == 1){
+        animalName = @"Bear";
+        _size = 0.75;
+        flipX = true;
+    }
+    else if(character == 2){
+        animalName = @"Leo";
+    }
+    else if (character == 3){
+        animalName = @"Dog";
+    }
+    else{
+        animalName = @"Squirl";
+    }
+    [_spriteNode removeChild:_animal cleanup: YES];
+    NSString* full = [NSString stringWithFormat:@"%@%@", path, animalName];
+    _animal = (CCSprite*)[CCBReader load:full];
+    _animal.scale = _size;
+    [_animal setFlipX:flipX];
+    CCLOG(@"animal was created!");
+    [_spriteNode addChild:_animal];
+}
 
 @end

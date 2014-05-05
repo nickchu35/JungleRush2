@@ -103,13 +103,28 @@
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
+		<key>Blank</key>
+		<dict>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
 		<key>Buttons</key>
+		<dict>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
+		<key>ChooseAssets</key>
 		<dict>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
 		<key>ChooseScene.ccbi</key>
 		<dict/>
+		<key>DogSprite</key>
+		<dict>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
 		<key>EntranceAssets</key>
 		<dict>
 			<key>isSmartSpriteSheet</key>
@@ -120,7 +135,7 @@
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>
-		<key>MainBackGround</key>
+		<key>LeoSprite</key>
 		<dict>
 			<key>isSmartSpriteSheet</key>
 			<true/>
@@ -139,6 +154,13 @@
 		</dict>
 		<key>Sprites</key>
 		<dict/>
+		<key>SquirlSprite</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
 		<key>ccbResources</key>
 		<dict>
 			<key>isSmartSpriteSheet</key>

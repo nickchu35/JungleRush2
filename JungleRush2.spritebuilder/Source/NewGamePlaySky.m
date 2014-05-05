@@ -19,7 +19,7 @@
     [_levelNode addChild:level];
 
  
-    bear = (CCSprite*)[CCBReader load:@"Bear"];
+    bear = (CCSprite*)[CCBReader load:@"AnimalSprite/Bear"];
     bear.position  = ccp(180,80);//ccp(self.contentSize.width/2,self.contentSize.height/2);
     bear.scale = 0.3;
     CCLOG(@"bear was created!");

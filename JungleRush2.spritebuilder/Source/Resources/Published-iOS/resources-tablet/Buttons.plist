@@ -4,23 +4,10 @@
 <dict>
 	<key>frames</key>
 	<dict>
-		<key>Buttons/ButtonRed.png</key>
-		<dict>
-			<key>frame</key>
-			<string>{{1, 1}, {400, 155}}</string>
-			<key>offset</key>
-			<string>{0, 0}</string>
-			<key>rotated</key>
-			<false/>
-			<key>sourceColorRect</key>
-			<string>{{0, 0}, {400, 155}}</string>
-			<key>sourceSize</key>
-			<string>{400, 155}</string>
-		</dict>
 		<key>Buttons/HomeButton.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 367}, {109, 109}}</string>
+			<string>{{1, 1}, {109, 109}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -30,26 +17,13 @@
 			<key>sourceSize</key>
 			<string>{109, 109}</string>
 		</dict>
-		<key>Buttons/start.png</key>
-		<dict>
-			<key>frame</key>
-			<string>{{1, 158}, {194, 207}}</string>
-			<key>offset</key>
-			<string>{0, 4}</string>
-			<key>rotated</key>
-			<false/>
-			<key>sourceColorRect</key>
-			<string>{{11, 0}, {194, 207}}</string>
-			<key>sourceSize</key>
-			<string>{216, 216}</string>
-		</dict>
 	</dict>
 	<key>metadata</key>
 	<dict>
 		<key>format</key>
 		<integer>2</integer>
 		<key>size</key>
-		<string>{512, 512}</string>
+		<string>{128, 128}</string>
 		<key>textureFileName</key>
 		<string>Buttons.png</string>
 	</dict>
