@@ -2,7 +2,7 @@
 //  NewGamePlaySky.h
 //  JungleRush2
 //
-//  Created by NMlab Mac on 2014/4/29.
+//  Created by NMlab Mac on 2014/5/4.
 //  Copyright (c) 2014年 Apportable. All rights reserved.
 //
 
@@ -10,9 +10,11 @@
 
 @interface NewGamePlaySky : CCNode
 {
-    CCPhysicsNode* _phisicsNode;
-    CCScrollView * _ccscrollView;
-
+    CCPhysicsNode *_physicsNode;
+    CCSprite *bear;
+    bool isHeadedLeft;
+    CCNode *_levelNode;
 }
+
 
 @end

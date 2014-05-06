@@ -25,4 +25,7 @@
     [[CCDirector sharedDirector] replaceScene:helpScene];
 }
 
+- (void)loginWithFacebook {
+}
+
 @end

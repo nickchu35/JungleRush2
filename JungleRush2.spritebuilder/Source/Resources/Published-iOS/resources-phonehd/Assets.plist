@@ -4,36 +4,10 @@
 <dict>
 	<key>frames</key>
 	<dict>
-		<key>Assets/HearthstoneLogo.png</key>
-		<dict>
-			<key>frame</key>
-			<string>{{1, 386}, {296, 108}}</string>
-			<key>offset</key>
-			<string>{0, 0}</string>
-			<key>rotated</key>
-			<true/>
-			<key>sourceColorRect</key>
-			<string>{{0, 0}, {296, 108}}</string>
-			<key>sourceSize</key>
-			<string>{296, 108}</string>
-		</dict>
-		<key>Assets/background.png</key>
-		<dict>
-			<key>frame</key>
-			<string>{{1, 1}, {960, 320}}</string>
-			<key>offset</key>
-			<string>{0, 0}</string>
-			<key>rotated</key>
-			<false/>
-			<key>sourceColorRect</key>
-			<string>{{0, 0}, {960, 320}}</string>
-			<key>sourceSize</key>
-			<string>{960, 320}</string>
-		</dict>
 		<key>Assets/ground.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 323}, {960, 61}}</string>
+			<string>{{1, 1}, {960, 61}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>

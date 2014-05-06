@@ -26,13 +26,13 @@
 		<array>
 			<dict>
 				<key>baseClass</key>
-				<string>CCButton</string>
+				<string>CCSprite</string>
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>CCButton</string>
+				<string>entrance</string>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -54,11 +54,185 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.25</real>
-							<real>0.20000000298023224</real>
+							<real>0.0</real>
+							<real>0.0</real>
 							<integer>0</integer>
-							<integer>2</integer>
-							<integer>2</integer>
+							<integer>0</integer>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>anchorPoint</string>
+						<key>type</key>
+						<string>Point</string>
+						<key>value</key>
+						<array>
+							<real>0.0</real>
+							<real>0.0</real>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>scale</string>
+						<key>type</key>
+						<string>ScaleLock</string>
+						<key>value</key>
+						<array>
+							<real>0.81999999284744263</real>
+							<real>0.81999999284744263</real>
+							<false/>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>spriteFrame</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string>EntranceAssets/entrance.png</string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>color</string>
+						<key>type</key>
+						<string>Color3</string>
+						<key>value</key>
+						<array>
+							<real>1</real>
+							<real>1</real>
+							<real>1</real>
+							<real>1</real>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>baseClass</key>
+				<string>CCSprite</string>
+				<key>children</key>
+				<array/>
+				<key>customClass</key>
+				<string></string>
+				<key>displayName</key>
+				<string>entrance_14</string>
+				<key>memberVarAssignmentName</key>
+				<string>option</string>
+				<key>memberVarAssignmentType</key>
+				<integer>1</integer>
+				<key>properties</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>name</string>
+						<key>type</key>
+						<string>StringSimple</string>
+						<key>value</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>position</string>
+						<key>type</key>
+						<string>Position</string>
+						<key>value</key>
+						<array>
+							<real>467</real>
+							<real>12</real>
+							<integer>0</integer>
+							<integer>0</integer>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>anchorPoint</string>
+						<key>type</key>
+						<string>Point</string>
+						<key>value</key>
+						<array>
+							<real>0.51999998092651367</real>
+							<real>0.51999998092651367</real>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>scale</string>
+						<key>type</key>
+						<string>ScaleLock</string>
+						<key>value</key>
+						<array>
+							<real>2</real>
+							<real>2</real>
+							<false/>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>spriteFrame</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string>EntranceAssets/entrance_14.png</string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>color</string>
+						<key>type</key>
+						<string>Color3</string>
+						<key>value</key>
+						<array>
+							<real>1</real>
+							<real>1</real>
+							<real>1</real>
+							<real>1</real>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>baseClass</key>
+				<string>CCSprite</string>
+				<key>children</key>
+				<array/>
+				<key>customClass</key>
+				<string></string>
+				<key>displayName</key>
+				<string>entrance_03</string>
+				<key>memberVarAssignmentName</key>
+				<string>loginWithFacebook</string>
+				<key>memberVarAssignmentType</key>
+				<integer>1</integer>
+				<key>properties</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>name</string>
+						<key>type</key>
+						<string>StringSimple</string>
+						<key>value</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>position</string>
+						<key>type</key>
+						<string>Position</string>
+						<key>value</key>
+						<array>
+							<real>65</real>
+							<real>361.5</real>
+							<integer>0</integer>
+							<integer>0</integer>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
@@ -79,93 +253,26 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
-							<real>1</real>
+							<real>2</real>
+							<real>2</real>
 							<false/>
 							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>block</string>
-						<key>type</key>
-						<string>Block</string>
-						<key>value</key>
-						<array>
-							<string>option</string>
-							<integer>1</integer>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>preferredSize</string>
-						<key>type</key>
-						<string>Size</string>
-						<key>value</key>
-						<array>
-							<real>60</real>
-							<real>60</real>
-							<integer>0</integer>
-							<integer>0</integer>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>maxSize</string>
-						<key>type</key>
-						<string>Size</string>
-						<key>value</key>
-						<array>
-							<real>0.0</real>
-							<real>0.0</real>
-							<integer>0</integer>
-							<integer>0</integer>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>userInteractionEnabled</string>
-						<key>type</key>
-						<string>Check</string>
-						<key>value</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>title</string>
-						<key>type</key>
-						<string>String</string>
-						<key>value</key>
-						<array>
-							<string>Option</string>
-							<false/>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>backgroundSpriteFrame|Normal</string>
+						<string>spriteFrame</string>
 						<key>type</key>
 						<string>SpriteFrame</string>
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbParticleSmoke.png</string>
+							<string>EntranceAssets/entrance_03.png</string>
 						</array>
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>backgroundSpriteFrame|Highlighted</string>
-						<key>type</key>
-						<string>SpriteFrame</string>
-						<key>value</key>
-						<array>
-							<string></string>
-							<string>ccbResources/ccbButtonHighlighted.png</string>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>labelColor|Highlighted</string>
+						<string>color</string>
 						<key>type</key>
 						<string>Color3</string>
 						<key>value</key>
@@ -174,160 +281,6 @@
 							<real>1</real>
 							<real>1</real>
 							<real>1</real>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>backgroundSpriteFrame|Disabled</string>
-						<key>type</key>
-						<string>SpriteFrame</string>
-						<key>value</key>
-						<array>
-							<string></string>
-							<string>ccbResources/ccbButtonNormal.png</string>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>labelOpacity|Disabled</string>
-						<key>type</key>
-						<string>Float</string>
-						<key>value</key>
-						<real>1</real>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>backgroundSpriteFrame|Selected</string>
-						<key>type</key>
-						<string>SpriteFrame</string>
-						<key>value</key>
-						<array>
-							<string></string>
-							<string>ccbResources/ccbButtonNormal.png</string>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>labelOpacity|Selected</string>
-						<key>type</key>
-						<string>Float</string>
-						<key>value</key>
-						<real>1</real>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>fontName</string>
-						<key>type</key>
-						<string>FontTTF</string>
-						<key>value</key>
-						<string>Helvetica</string>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>fontSize</string>
-						<key>type</key>
-						<string>FloatScale</string>
-						<key>value</key>
-						<array>
-							<real>17</real>
-							<integer>0</integer>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>horizontalPadding</string>
-						<key>type</key>
-						<string>FloatScale</string>
-						<key>value</key>
-						<array>
-							<real>10</real>
-							<integer>0</integer>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>verticalPadding</string>
-						<key>type</key>
-						<string>FloatScale</string>
-						<key>value</key>
-						<array>
-							<real>0.0</real>
-							<integer>0</integer>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>fontColor</string>
-						<key>type</key>
-						<string>Color4</string>
-						<key>value</key>
-						<array>
-							<real>255</real>
-							<real>255</real>
-							<real>255</real>
-							<real>255</real>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>outlineColor</string>
-						<key>type</key>
-						<string>Color4</string>
-						<key>value</key>
-						<array>
-							<real>0.0</real>
-							<real>0.0</real>
-							<real>0.0</real>
-							<real>0.0</real>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>outlineWidth</string>
-						<key>type</key>
-						<string>FloatScale</string>
-						<key>value</key>
-						<array>
-							<real>1</real>
-							<integer>0</integer>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>shadowColor</string>
-						<key>type</key>
-						<string>Color4</string>
-						<key>value</key>
-						<array>
-							<real>0.0</real>
-							<real>0.0</real>
-							<real>0.0</real>
-							<real>127</real>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>shadowBlurRadius</string>
-						<key>type</key>
-						<string>FloatScale</string>
-						<key>value</key>
-						<array>
-							<real>2</real>
-							<integer>0</integer>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>shadowOffset</string>
-						<key>type</key>
-						<string>Position</string>
-						<key>value</key>
-						<array>
-							<real>0.0</real>
-							<real>-2</real>
-							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
 						</array>
 					</dict>
 				</array>
@@ -362,11 +315,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.49609375</real>
-							<real>0.19739584624767303</real>
+							<real>255.99998474121094</real>
+							<real>130</real>
 							<integer>0</integer>
-							<integer>2</integer>
-							<integer>2</integer>
+							<integer>0</integer>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
@@ -387,8 +340,8 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
-							<real>1</real>
+							<real>2</real>
+							<real>2</real>
 							<false/>
 							<integer>0</integer>
 						</array>
@@ -411,8 +364,8 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>120</real>
-							<real>120</real>
+							<real>70</real>
+							<real>20</real>
 							<integer>0</integer>
 							<integer>0</integer>
 						</array>
@@ -457,7 +410,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>Buttons/play.png</string>
+							<string>EntranceAssets/entrance_07.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -468,7 +421,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>Buttons/play.png</string>
+							<string>EntranceAssets/entrance_07.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -639,6 +592,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>baseClass</key>
@@ -670,11 +625,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.75</real>
-							<real>0.20000000298023224</real>
+							<real>50</real>
+							<real>15</real>
 							<integer>0</integer>
-							<integer>2</integer>
-							<integer>2</integer>
+							<integer>0</integer>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
@@ -695,8 +650,8 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
-							<real>1</real>
+							<real>2</real>
+							<real>2</real>
 							<false/>
 							<integer>0</integer>
 						</array>
@@ -719,10 +674,10 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>60</real>
-							<real>60</real>
-							<integer>0</integer>
-							<integer>0</integer>
+							<real>74.5</real>
+							<real>15</real>
+							<integer>1</integer>
+							<integer>1</integer>
 						</array>
 					</dict>
 					<dict>
@@ -734,8 +689,8 @@
 						<array>
 							<real>0.0</real>
 							<real>0.0</real>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>1</integer>
+							<integer>1</integer>
 						</array>
 					</dict>
 					<dict>
@@ -753,7 +708,7 @@
 						<string>String</string>
 						<key>value</key>
 						<array>
-							<string>Help</string>
+							<string></string>
 							<false/>
 						</array>
 					</dict>
@@ -765,7 +720,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbParticleSmoke.png</string>
+							<string>EntranceAssets/entrance_11.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -776,7 +731,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>ccbResources/ccbButtonHighlighted.png</string>
+							<string>EntranceAssets/entrance_11.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -950,13 +905,13 @@
 			</dict>
 			<dict>
 				<key>baseClass</key>
-				<string>CCSprite</string>
+				<string>CCButton</string>
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>HearthstoneLogo</string>
+				<string>CCButton</string>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -978,11 +933,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.5</real>
-							<real>0.64999997615814209</real>
+							<real>465.82546997070312</real>
+							<real>11.495306015014648</real>
 							<integer>0</integer>
-							<integer>2</integer>
-							<integer>2</integer>
+							<integer>0</integer>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1003,26 +958,93 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
-							<real>1</real>
+							<real>2</real>
+							<real>2</real>
 							<false/>
 							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>spriteFrame</string>
+						<string>block</string>
+						<key>type</key>
+						<string>Block</string>
+						<key>value</key>
+						<array>
+							<string>option</string>
+							<integer>1</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>preferredSize</string>
+						<key>type</key>
+						<string>Size</string>
+						<key>value</key>
+						<array>
+							<real>78.5</real>
+							<real>19</real>
+							<integer>1</integer>
+							<integer>1</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>maxSize</string>
+						<key>type</key>
+						<string>Size</string>
+						<key>value</key>
+						<array>
+							<real>0.0</real>
+							<real>0.0</real>
+							<integer>1</integer>
+							<integer>1</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>userInteractionEnabled</string>
+						<key>type</key>
+						<string>Check</string>
+						<key>value</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>title</string>
+						<key>type</key>
+						<string>String</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<false/>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>backgroundSpriteFrame|Normal</string>
 						<key>type</key>
 						<string>SpriteFrame</string>
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>Assets/HearthstoneLogo.png</string>
+							<string>EntranceAssets/entrance_14.png</string>
 						</array>
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>color</string>
+						<string>backgroundSpriteFrame|Highlighted</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string>EntranceAssets/entrance_14.png</string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>labelColor|Highlighted</string>
 						<key>type</key>
 						<string>Color3</string>
 						<key>value</key>
@@ -1033,9 +1055,469 @@
 							<real>1</real>
 						</array>
 					</dict>
+					<dict>
+						<key>name</key>
+						<string>backgroundSpriteFrame|Disabled</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string>ccbResources/ccbButtonNormal.png</string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>labelOpacity|Disabled</string>
+						<key>type</key>
+						<string>Float</string>
+						<key>value</key>
+						<real>1</real>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>backgroundSpriteFrame|Selected</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string>ccbResources/ccbButtonNormal.png</string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>labelOpacity|Selected</string>
+						<key>type</key>
+						<string>Float</string>
+						<key>value</key>
+						<real>1</real>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>fontName</string>
+						<key>type</key>
+						<string>FontTTF</string>
+						<key>value</key>
+						<string>Helvetica</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>fontSize</string>
+						<key>type</key>
+						<string>FloatScale</string>
+						<key>value</key>
+						<array>
+							<real>17</real>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>horizontalPadding</string>
+						<key>type</key>
+						<string>FloatScale</string>
+						<key>value</key>
+						<array>
+							<real>10</real>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>verticalPadding</string>
+						<key>type</key>
+						<string>FloatScale</string>
+						<key>value</key>
+						<array>
+							<real>0.0</real>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>fontColor</string>
+						<key>type</key>
+						<string>Color4</string>
+						<key>value</key>
+						<array>
+							<real>255</real>
+							<real>255</real>
+							<real>255</real>
+							<real>255</real>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>outlineColor</string>
+						<key>type</key>
+						<string>Color4</string>
+						<key>value</key>
+						<array>
+							<real>0.0</real>
+							<real>0.0</real>
+							<real>0.0</real>
+							<real>0.0</real>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>outlineWidth</string>
+						<key>type</key>
+						<string>FloatScale</string>
+						<key>value</key>
+						<array>
+							<real>1</real>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>shadowColor</string>
+						<key>type</key>
+						<string>Color4</string>
+						<key>value</key>
+						<array>
+							<real>0.0</real>
+							<real>0.0</real>
+							<real>0.0</real>
+							<real>127</real>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>shadowBlurRadius</string>
+						<key>type</key>
+						<string>FloatScale</string>
+						<key>value</key>
+						<array>
+							<real>2</real>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>shadowOffset</string>
+						<key>type</key>
+						<string>Position</string>
+						<key>value</key>
+						<array>
+							<real>0.0</real>
+							<real>-2</real>
+							<integer>0</integer>
+							<integer>0</integer>
+							<integer>0</integer>
+						</array>
+					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
+			</dict>
+			<dict>
+				<key>baseClass</key>
+				<string>CCButton</string>
+				<key>children</key>
+				<array/>
+				<key>customClass</key>
+				<string></string>
+				<key>displayName</key>
+				<string>CCButton</string>
+				<key>memberVarAssignmentName</key>
+				<string></string>
+				<key>memberVarAssignmentType</key>
+				<integer>0</integer>
+				<key>properties</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>name</string>
+						<key>type</key>
+						<string>StringSimple</string>
+						<key>value</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>position</string>
+						<key>type</key>
+						<string>Position</string>
+						<key>value</key>
+						<array>
+							<real>64.940704345703125</real>
+							<real>361.4583740234375</real>
+							<integer>0</integer>
+							<integer>0</integer>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>anchorPoint</string>
+						<key>type</key>
+						<string>Point</string>
+						<key>value</key>
+						<array>
+							<real>0.5</real>
+							<real>0.5</real>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>scale</string>
+						<key>type</key>
+						<string>ScaleLock</string>
+						<key>value</key>
+						<array>
+							<real>2</real>
+							<real>2</real>
+							<false/>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>block</string>
+						<key>type</key>
+						<string>Block</string>
+						<key>value</key>
+						<array>
+							<string>loginWithFacebook</string>
+							<integer>1</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>preferredSize</string>
+						<key>type</key>
+						<string>Size</string>
+						<key>value</key>
+						<array>
+							<real>116.5</real>
+							<real>24.5</real>
+							<integer>1</integer>
+							<integer>1</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>maxSize</string>
+						<key>type</key>
+						<string>Size</string>
+						<key>value</key>
+						<array>
+							<real>0.0</real>
+							<real>0.0</real>
+							<integer>1</integer>
+							<integer>1</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>userInteractionEnabled</string>
+						<key>type</key>
+						<string>Check</string>
+						<key>value</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>title</string>
+						<key>type</key>
+						<string>String</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<false/>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>backgroundSpriteFrame|Normal</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string>EntranceAssets/entrance_03.png</string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>backgroundSpriteFrame|Highlighted</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string>EntranceAssets/entrance_03.png</string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>labelColor|Highlighted</string>
+						<key>type</key>
+						<string>Color3</string>
+						<key>value</key>
+						<array>
+							<real>1</real>
+							<real>1</real>
+							<real>1</real>
+							<real>1</real>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>backgroundSpriteFrame|Disabled</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string>ccbResources/ccbButtonNormal.png</string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>labelOpacity|Disabled</string>
+						<key>type</key>
+						<string>Float</string>
+						<key>value</key>
+						<real>1</real>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>backgroundSpriteFrame|Selected</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string>ccbResources/ccbButtonNormal.png</string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>labelOpacity|Selected</string>
+						<key>type</key>
+						<string>Float</string>
+						<key>value</key>
+						<real>1</real>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>fontName</string>
+						<key>type</key>
+						<string>FontTTF</string>
+						<key>value</key>
+						<string>Helvetica</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>fontSize</string>
+						<key>type</key>
+						<string>FloatScale</string>
+						<key>value</key>
+						<array>
+							<real>17</real>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>horizontalPadding</string>
+						<key>type</key>
+						<string>FloatScale</string>
+						<key>value</key>
+						<array>
+							<real>10</real>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>verticalPadding</string>
+						<key>type</key>
+						<string>FloatScale</string>
+						<key>value</key>
+						<array>
+							<real>0.0</real>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>fontColor</string>
+						<key>type</key>
+						<string>Color4</string>
+						<key>value</key>
+						<array>
+							<real>255</real>
+							<real>255</real>
+							<real>255</real>
+							<real>255</real>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>outlineColor</string>
+						<key>type</key>
+						<string>Color4</string>
+						<key>value</key>
+						<array>
+							<real>0.0</real>
+							<real>0.0</real>
+							<real>0.0</real>
+							<real>0.0</real>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>outlineWidth</string>
+						<key>type</key>
+						<string>FloatScale</string>
+						<key>value</key>
+						<array>
+							<real>1</real>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>shadowColor</string>
+						<key>type</key>
+						<string>Color4</string>
+						<key>value</key>
+						<array>
+							<real>0.0</real>
+							<real>0.0</real>
+							<real>0.0</real>
+							<real>127</real>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>shadowBlurRadius</string>
+						<key>type</key>
+						<string>FloatScale</string>
+						<key>value</key>
+						<array>
+							<real>2</real>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>shadowOffset</string>
+						<key>type</key>
+						<string>Position</string>
+						<key>value</key>
+						<array>
+							<real>0.0</real>
+							<real>-2</real>
+							<integer>0</integer>
+							<integer>0</integer>
+							<integer>0</integer>
+						</array>
+					</dict>
+				</array>
 			</dict>
 		</array>
 		<key>customClass</key>

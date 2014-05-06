@@ -8,6 +8,9 @@
 
 #import "CCNode.h"
 
-@interface NewGamePlayIce : CCNode
+@interface NewGamePlayIce : CCNode{
+    CCSprite* bear;
+    bool isHeadedLeft;
+}
 
 @end
