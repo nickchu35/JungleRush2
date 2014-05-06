@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		042D95EE190A3B9D00ED6B54 /* GamePlayIce.m in Sources */ = {isa = PBXBuildFile; fileRef = 042D95ED190A3B9D00ED6B54 /* GamePlayIce.m */; };
 		04745F62190B88FE001C0B74 /* NewGamePlayIce.m in Sources */ = {isa = PBXBuildFile; fileRef = 04745F61190B88FE001C0B74 /* NewGamePlayIce.m */; };
+		04ACABA4191921D20050D6C8 /* UserClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ACABA3191921D20050D6C8 /* UserClass.m */; };
+		04ACABA6191924870050D6C8 /* TokyoDrift.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04ACABA5191924870050D6C8 /* TokyoDrift.mp3 */; };
+		04ACABAB19192C1F0050D6C8 /* PlayerLobby.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ACABAA19192C1F0050D6C8 /* PlayerLobby.m */; };
 		04B1082B190A4D3B000032D9 /* OptionScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B1082A190A4D3B000032D9 /* OptionScene.m */; };
 		04B10832190A4DF8000032D9 /* ChooseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B10831190A4DF8000032D9 /* ChooseScene.m */; };
 		04B10837190AC369000032D9 /* HelpScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B10836190AC369000032D9 /* HelpScene.m */; };
@@ -66,6 +69,11 @@
 		042D95ED190A3B9D00ED6B54 /* GamePlayIce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GamePlayIce.m; path = Source/GamePlayIce.m; sourceTree = "<group>"; };
 		04745F60190B88FE001C0B74 /* NewGamePlayIce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewGamePlayIce.h; path = Source/NewGamePlayIce.h; sourceTree = "<group>"; };
 		04745F61190B88FE001C0B74 /* NewGamePlayIce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewGamePlayIce.m; path = Source/NewGamePlayIce.m; sourceTree = "<group>"; };
+		04ACABA2191921D20050D6C8 /* UserClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserClass.h; path = Source/UserClass.h; sourceTree = "<group>"; };
+		04ACABA3191921D20050D6C8 /* UserClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserClass.m; path = Source/UserClass.m; sourceTree = "<group>"; };
+		04ACABA5191924870050D6C8 /* TokyoDrift.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TokyoDrift.mp3; sourceTree = "<group>"; };
+		04ACABA919192C1F0050D6C8 /* PlayerLobby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerLobby.h; path = Source/PlayerLobby.h; sourceTree = "<group>"; };
+		04ACABAA19192C1F0050D6C8 /* PlayerLobby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerLobby.m; path = Source/PlayerLobby.m; sourceTree = "<group>"; };
 		04B10829190A4D3B000032D9 /* OptionScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptionScene.h; path = Source/OptionScene.h; sourceTree = "<group>"; };
 		04B1082A190A4D3B000032D9 /* OptionScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OptionScene.m; path = Source/OptionScene.m; sourceTree = "<group>"; };
 		04B10830190A4DF8000032D9 /* ChooseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChooseScene.h; path = Source/ChooseScene.h; sourceTree = "<group>"; };
@@ -161,6 +169,11 @@
 				04D8772919155B5200721EE4 /* NewGamePlaySky.m */,
 				04D8772D191655E100721EE4 /* NewGamePlaySkyL.h */,
 				04D8772E191655E100721EE4 /* NewGamePlaySkyL.m */,
+				04ACABA2191921D20050D6C8 /* UserClass.h */,
+				04ACABA3191921D20050D6C8 /* UserClass.m */,
+				04ACABA919192C1F0050D6C8 /* PlayerLobby.h */,
+				04ACABAA19192C1F0050D6C8 /* PlayerLobby.m */,
+				04ACABA5191924870050D6C8 /* TokyoDrift.mp3 */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -343,6 +356,7 @@
 				B71F5918188484E7003F4D28 /* iPhone@2x.png in Resources */,
 				B7378977180762440076A88C /* Default.png in Resources */,
 				B71F5911188484E7003F4D28 /* iPad-old.png in Resources */,
+				04ACABA6191924870050D6C8 /* TokyoDrift.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04ACABA4191921D20050D6C8 /* UserClass.m in Sources */,
 				042D95EE190A3B9D00ED6B54 /* GamePlayIce.m in Sources */,
 				04B10832190A4DF8000032D9 /* ChooseScene.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
@@ -361,6 +376,7 @@
 				04D8772A19155B5200721EE4 /* NewGamePlaySky.m in Sources */,
 				04B1082B190A4D3B000032D9 /* OptionScene.m in Sources */,
 				04D8772F191655E100721EE4 /* NewGamePlaySkyL.m in Sources */,
+				04ACABAB19192C1F0050D6C8 /* PlayerLobby.m in Sources */,
 				04745F62190B88FE001C0B74 /* NewGamePlayIce.m in Sources */,
 				04B10837190AC369000032D9 /* HelpScene.m in Sources */,
 			);

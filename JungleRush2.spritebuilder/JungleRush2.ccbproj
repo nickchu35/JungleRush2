@@ -100,6 +100,8 @@
 		</dict>
 		<key>BearSprite</key>
 		<dict>
+			<key>isDirty</key>
+			<true/>
 			<key>isSmartSpriteSheet</key>
 			<true/>
 		</dict>

@@ -9,11 +9,11 @@
 	</dict>
 	<key>spriteFrameFiles</key>
 	<array>
-		<string>SquirlSprite.plist</string>
 		<string>Gear.plist</string>
+		<string>SquirlSprite.plist</string>
 		<string>BackGrounds.plist</string>
-		<string>ccbResources.plist</string>
 		<string>EntranceAssets.plist</string>
+		<string>ccbResources.plist</string>
 		<string>Blank.plist</string>
 		<string>Assets.plist</string>
 		<string>DogSprite.plist</string>

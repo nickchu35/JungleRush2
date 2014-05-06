@@ -197,7 +197,7 @@
 			<key>affectedByGravity</key>
 			<true/>
 			<key>allowsRotation</key>
-			<true/>
+			<false/>
 			<key>bodyShape</key>
 			<integer>0</integer>
 			<key>cornerRadius</key>
@@ -213,24 +213,52 @@
 			<key>points</key>
 			<array>
 				<array>
-					<real>-0.29175159335136414</real>
-					<real>4.2972440719604492</real>
+					<real>15.383833885192871</real>
+					<real>89.551536560058594</real>
 				</array>
 				<array>
-					<real>207.618408203125</real>
-					<real>3.7661168575286865</real>
+					<real>16.886165618896484</real>
+					<real>14.022106170654297</real>
 				</array>
 				<array>
-					<real>207.68772888183594</real>
-					<real>143.4918212890625</real>
+					<real>22.590948104858398</real>
+					<real>0.81509131193161011</real>
 				</array>
 				<array>
-					<real>78.139785766601562</real>
-					<real>141.56224060058594</real>
+					<real>179.76272583007812</real>
+					<real>0.55135917663574219</real>
 				</array>
 				<array>
-					<real>11.686093330383301</real>
-					<real>130.33268737792969</real>
+					<real>208.91767883300781</real>
+					<real>17.527545928955078</real>
+				</array>
+				<array>
+					<real>227.87971496582031</real>
+					<real>47.742145538330078</real>
+				</array>
+				<array>
+					<real>227.9896240234375</real>
+					<real>63.281932830810547</real>
+				</array>
+				<array>
+					<real>223.50302124023438</real>
+					<real>103.73499298095703</real>
+				</array>
+				<array>
+					<real>198.89115905761719</real>
+					<real>117.92942810058594</real>
+				</array>
+				<array>
+					<real>156.74267578125</real>
+					<real>141.9384765625</real>
+				</array>
+				<array>
+					<real>76.467643737792969</real>
+					<real>136.65127563476562</real>
+				</array>
+				<array>
+					<real>42.579647064208984</real>
+					<real>115.80387878417969</real>
 				</array>
 			</array>
 		</dict>
@@ -367,7 +395,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.20000000298023224</real>
+			<real>0.1666666716337204</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>

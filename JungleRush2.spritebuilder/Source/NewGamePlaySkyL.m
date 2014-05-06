@@ -14,16 +14,18 @@
         self.userInteractionEnabled = TRUE;
         
         bear = (CCSprite*)[CCBReader load:@"AnimalSprite/Bear"];
-        bear.position  = ccp(300,80);//ccp(self.contentSize.width/2,self.contentSize.height/2);
+        bear.position  = ccp(100,80);//ccp(self.contentSize.width/2,self.contentSize.height/2);
         bear.scale = 0.3;
         CCLOG(@"bear was created!");
         [_physicsNode addChild:bear]; //換成physics家看看
         
-        isHeadedLeft = true;
+        isHeadedLeft = false;
         
         // follow the bear
         CCActionFollow *follow = [CCActionFollow actionWithTarget:bear worldBoundary:self.boundingBox];
         [self runAction:follow];
+        
+        [[OALSimpleAudio sharedInstance] playBg:@"TokyoDrift.mp3" loop:YES];  //add music
         
     }
     
@@ -31,7 +33,7 @@
         CGPoint touchLoc = [touch locationInNode:self];
         
         if(touchLoc.x > bear.position.x && isHeadedLeft){
-            [bear setFlipX:true];
+            [bear setFlipX:false];
             isHeadedLeft = false;
         }
         if(touchLoc.x < bear.position.x && !isHeadedLeft){
@@ -46,6 +48,8 @@
         CCActionMoveTo *actionMove = [CCActionMoveTo actionWithDuration:1.0f position:touchLoc];
         [bear runAction:actionMove];
     }
+
+
 
 
 @end

@@ -45,29 +45,28 @@
 }
 
 - (void)loadAnimal{
-    double _size = 1.5;
-    bool flipX = false;
+    double _size = 1.5;;
     NSString *path = @"WalkingAnimalSprite/Walking";
     NSString *animalName = @"Bear";
     if(character == 1){
         animalName = @"Bear";
         _size = 0.75;
-        flipX = true;
     }
     else if(character == 2){
         animalName = @"Leo";
+        _size = 1.75;
     }
     else if (character == 3){
         animalName = @"Dog";
     }
     else{
         animalName = @"Squirl";
+        _size = 1.75;
     }
     [_spriteNode removeChild:_animal cleanup: YES];
     NSString* full = [NSString stringWithFormat:@"%@%@", path, animalName];
     _animal = (CCSprite*)[CCBReader load:full];
     _animal.scale = _size;
-    [_animal setFlipX:flipX];
     CCLOG(@"animal was created!");
     [_spriteNode addChild:_animal];
 }
