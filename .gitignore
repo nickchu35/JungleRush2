@@ -1,0 +1,5 @@
+_Store
+*.swp
+log/*.log
+./JungleRush2.spritebuilder/SpriteBuilder Resources/*
+./JungleRush2/JungleRush2.spritebuilder/Source/Resources/Published-iOS/*
